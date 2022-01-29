@@ -12,4 +12,5 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
+      - run: git remote set-url origin pranitbauva1997:${{ secrets.TOKEN }}@github.com/pranitbauva1997/tic-tac-toe-react-demo
       - run: npm run deploy
